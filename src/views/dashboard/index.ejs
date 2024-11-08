@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FootwearHub</title>
+  <link rel="icon" href="/assets/image/favikon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  <link type="text/css" rel="stylesheet" href="/assets/dist/css/adminlte.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/assets/dist/js/adminlte.min.js"></script>
+</head>
+
+<body class="hold-transition sidebar-mini">
+  <div class="wrapper">
+    <!-- Include Navbar -->
+    <%- include('../layout/navbar') %>
+
+    <!-- Include Sidebar -->
+    <%- include('../layout/sidebar') %>
+
+    <!-- Content Wrapper -->
+    <div class="content-wrapper">
+      <div class="content-header">
+          <div class="container-fluid">
+              <div class="row mb-2">
+                  <div class="col-sm-6">
+                      <h1 class="m-0">Admin Dashboard</h1>
+                  </div>
+                  <div class="col-sm-6">
+                      <ol class="breadcrumb float-sm-right">
+                          <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+                          <li class="breadcrumb-item active">Dashboard v1</li>
+                      </ol>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Main Content -->
+      <section class="content">
+          <div class="container-fluid">
+              <div class="row">
+                  <!-- New Customers -->
+                  <div class="col-sm">
+                      <div class="small-box bg-gradient-lightblue">
+                          <div class="inner">
+                              <h3>25</h3>
+                              <p>New Customers</p>
+                          </div>
+                          <div class="icon">
+                              <i class="fas fa-users"></i>
+                          </div>
+                          <a href="#" class="small-box-footer">
+                              More info <i class="fas fa-arrow-circle-right"></i>
+                          </a>
+                      </div>
+                  </div>
+
+                  <!-- Total Orders -->
+                  <div class="col-sm">
+                      <div class="small-box bg-gradient-primary">
+                          <div class="inner">
+                              <h3>150</h3>
+                              <p>Total Orders</p>
+                          </div>
+                          <div class="icon">
+                              <i class="fas fa-shopping-cart"></i>
+                          </div>
+                          <a href="#" class="small-box-footer">
+                              More info <i class="fas fa-arrow-circle-right"></i>
+                          </a>
+                      </div>
+                  </div>
+
+                  <!-- Customer Reviews -->
+                  <div class="col-sm">
+                      <div class="small-box bg-gradient-info">
+                          <div class="inner">
+                              <h3>30</h3>
+                              <p>Customer Reviews</p>
+                          </div>
+                          <div class="icon">
+                              <i class="fas fa-star"></i>
+                          </div>
+                          <a href="#" class="small-box-footer">
+                              More info <i class="fas fa-arrow-circle-right"></i>
+                          </a>
+                      </div>
+                  </div>
+
+                  <!-- Active Users -->
+                  <div class="col-sm">
+                      <div class="small-box bg-secondary">
+                          <div class="inner">
+                              <h3>75</h3>
+                              <p>Active Users</p>
+                          </div>
+                          <div class="icon">
+                              <i class="fas fa-user-check"></i>
+                          </div>
+                          <a href="#" class="small-box-footer">
+                              More info <i class="fas fa-arrow-circle-right"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+  <!-- Include Footer -->
+  <%- include('../layout/footer') %>
+</body>
+</html>

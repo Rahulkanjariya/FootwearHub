@@ -1,0 +1,224 @@
+.text-sm .select2-container--default .select2-selection,
+select.form-control-sm~.select2-container--default .select2-selection {
+    height: calc(2.25rem + 2px) !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 34px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    margin-top: 0 !important;
+}
+
+.text-sm .select2-container--default .select2-selection .select2-selection__arrow,
+select.form-control-sm~.select2-container--default .select2-selection .select2-selection__arrow {
+    top: 0;
+}
+
+.feed-container {
+    max-width: 660px;
+    margin: 50px auto 30px;
+    padding: 0;
+}
+
+.post-banner-section .single-banner .post-img-wrapper {
+    margin-bottom: 0;
+}
+
+.post-banner-section .post-img-wrapper:first-child {
+    width: 100%;
+    height: 360px;
+    margin-bottom: 4px;
+}
+
+.post-banner-section .post-img-wrapper {
+    background-color: #89d7ff38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.feed-post-bottom-button {
+    padding: 20px 20px;
+    border-top: 1px solid #dce1ff;
+    display: flex;
+}
+
+.feed-product-info {
+    padding: 20px;
+}
+
+.post-banner-section .post-img-wrapper:first-child img {
+    height: 100%;
+    width: 100%;
+}
+
+.post-banner-section img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.post-banner-section img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.user-block {
+    align-items: center;
+}
+
+.feed-display-img img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.feed-post-section .card-header {
+    border-color: #dce1ff;
+}
+
+.feed-info-user {
+    margin-left: 10px;
+}
+
+.feed-info-user .display-name a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #303030;
+    transition: .3s;
+    line-height: 20px;
+}
+
+.feed-info-user .username {
+    margin: 0;
+    line-height: 1;
+}
+
+.feed-info-user .username a {
+    margin: 0;
+    color: #303030;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.feed-post-section .btn-tool {
+    color: #23a9ff;
+}
+
+.feed-post-section .description {
+    font-size: 16px;
+    line-height: 22px;
+    color: #484848;
+}
+
+.feed-description p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #484848;
+}
+
+.feed-description {
+    padding: 20px;
+}
+
+.feed-post-section .card-header {
+    border-color: #dce1ff;
+}
+
+.feed-post-section .card-widget {
+    box-shadow: 0 4px 40px -6px rgb(58 90 221 / 14%);
+    border: 1px solid #dce1ff;
+    margin-bottom: 20px;
+}
+
+.product-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #5a5a5a;
+    margin: 0;
+}
+
+.feed-product-info b {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #5a5a5a;
+    margin: 0 10px 0 0;
+}
+
+.product-description {
+    font-size: 15px;
+    padding: 10px 0;
+    line-height: 22px;
+    margin: 0;
+}
+
+.feed-product-price {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #5a5a5a;
+    margin: 0;
+}
+
+/* .btn:hover {
+    color: #23a8fe;
+    text-decoration: none;
+    background-color: #fff;
+} */
+
+.feed-product-info .product-description b {
+    font-size: 16px;
+}
+
+.feed-post-bottom-button button {
+    margin-right: 15px;
+}
+
+.feed-post-bottom-button button {
+    border: 1px solid #dce1ff;
+    padding: 4px 20px;
+    border-radius: 25px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #23a8fe;
+    cursor: default !important;
+}
+
+.feed-post-bottom-button {
+    padding: 20px 20px;
+    border-top: 1px solid #dce1ff;
+    display: flex;
+}
+
+.image-radio input[type="radio"]:checked+img {
+    outline: 3px solid rgb(84, 208, 224);
+}
+
+.image-radio input[type="radio"] {
+    appearance: none;
+}
+
+img.table-avatar {
+    border-radius: 50%;
+    display: inline;
+    width: 4.5rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next .carousel-control-custom-icon {
+    color: #00000038 !important;
+}
+
+.col-md-4.kkmk {
+    line-height: 90px;
+}
